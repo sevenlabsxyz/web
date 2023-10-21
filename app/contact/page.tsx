@@ -5,12 +5,12 @@ import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
-	{
-		icon: <Twitter size={20} />,
-		href: "https://x.com/sevenlabs",
-		label: "Twitter",
-		handle: "@sevenlabs",
-	},
+	// {
+	// 	icon: <Twitter size={20} />,
+	// 	href: "https://x.com/sevenlabs",
+	// 	label: "Twitter",
+	// 	handle: "@sevenlabs",
+	// },
 	{
 		icon: <Mail size={20} />,
 		href: "mailto:info@seven.sx",
@@ -30,7 +30,7 @@ export default function Example() {
 		<div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
 			<Navigation />
 			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
-				<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
+				<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-2 lg:gap-16">
 					{socials.map((s) => (
 						<Card>
 							<Link
